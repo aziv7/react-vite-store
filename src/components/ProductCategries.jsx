@@ -2,6 +2,7 @@ import React, { memo, useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
 const ProductCategries = () => {
   const [categories, setCategories] = useState([
+    'All',
     'Bed',
     'Chair',
     'Sofa',
