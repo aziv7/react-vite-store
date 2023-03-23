@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 import ProductCategries from './components/ProductCategries';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <Home />
       <ProductCategries />
+      <Products />
+      <Navbar />
     </div>
   );
 }
